@@ -39,7 +39,7 @@ namespace Neuroshima {
                 Warning.Visible = true;
             }
             else {
-                Bohater.WypelnijInfoBohatera(NazwaBohatera.Text, Pochodzenie.SelectedItem.ToString(),
+                Bohater.FillInfo(NazwaBohatera.Text, Pochodzenie.SelectedItem.ToString(),
                                             PochodzenieCecha.SelectedItem.ToString(),Profesja.SelectedItem.ToString(),
                                             ProfesjaCecha.SelectedItem.ToString(), Choroba.SelectedItem.ToString());
                 this.Close();

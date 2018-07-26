@@ -13,7 +13,7 @@ namespace Neuroshima {
         static string ProfesjaCecha { get; set; }
         static string Choroba { get; set; }
 
-        public static void WypelnijInfoBohatera(string imie,string pochodzenie,string pochodzeniececha,string profesja,
+        public static void FillInfo(string imie,string pochodzenie,string pochodzeniececha,string profesja,
                                                  string profesjacecha,string choroba) {
             Bohater.Nazwa = imie;
             Bohater.Pochodzenie = pochodzenie;
