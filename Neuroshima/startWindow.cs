@@ -24,7 +24,6 @@ namespace Neuroshima {
             if (Pochodzenie.SelectedItem.ToString() == "Federacja Apallachów") {
                 PochodzenieCecha.DataSource = Neuroshima.Pochodzenie.FACechy;
             }
-
         }
 
         private void ProfesjaSelectedIndexChanged(object sender, EventArgs e) {
@@ -49,8 +48,6 @@ namespace Neuroshima {
         bool IsEveryThingFilled() {
             return !IsAnyFieldEmpty();
         }
-
-
 
         bool IsAnyFieldEmpty() {
             if (NazwaBohatera.Text == "" ||
