@@ -13,7 +13,7 @@ namespace Neuroshima {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InfoFillWindow());
+            Application.Run(new MainWindow());
         }
     }
 }

@@ -13,5 +13,6 @@ namespace Neuroshima {
         public MainWindow() {
             InitializeComponent();
         }
-    }
+
+            }
 }

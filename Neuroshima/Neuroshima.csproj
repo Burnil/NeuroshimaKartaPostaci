@@ -67,6 +67,9 @@
     <Compile Include="InfoFillWindow.Designer.cs">
       <DependentUpon>InfoFillWindow.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -79,58 +82,6 @@
     <EmbeddedResource Include="InfoFillWindow.resx">
       <DependentUpon>InfoFillWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include=".git\.COMMIT_EDITMSG.swp" />
-    <None Include=".git\COMMIT_EDITMSG" />
-    <None Include=".git\config" />
-    <None Include=".git\description" />
-    <None Include=".git\FETCH_HEAD" />
-    <None Include=".git\HEAD" />
-    <None Include=".git\hooks\applypatch-msg.sample" />
-    <None Include=".git\hooks\commit-msg.sample" />
-    <None Include=".git\hooks\fsmonitor-watchman.sample" />
-    <None Include=".git\hooks\post-update.sample" />
-    <None Include=".git\hooks\pre-applypatch.sample" />
-    <None Include=".git\hooks\pre-commit.sample" />
-    <None Include=".git\hooks\pre-push.sample" />
-    <None Include=".git\hooks\pre-rebase.sample" />
-    <None Include=".git\hooks\pre-receive.sample" />
-    <None Include=".git\hooks\prepare-commit-msg.sample" />
-    <None Include=".git\hooks\update.sample" />
-    <None Include=".git\index" />
-    <None Include=".git\info\exclude" />
-    <None Include=".git\logs\HEAD" />
-    <None Include=".git\logs\refs\heads\master" />
-    <None Include=".git\logs\refs\remotes\origin\master" />
-    <None Include=".git\objects\0a\85f6ae5f493e7dd37f1a0378e1c35e13ff3537" />
-    <None Include=".git\objects\0e\4636f353fce23d76a3c8810f5c4bc02707bb83" />
-    <None Include=".git\objects\12\96525bb90cda43bdf87f6ff597a7c79024e4f6" />
-    <None Include=".git\objects\19\25e1abd129687c1cba19dff5da7f2194c4bf9c" />
-    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
-    <None Include=".git\objects\34\1d4b695a7486eb4651f5fd3e3ebfa7dcd40ea1" />
-    <None Include=".git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4" />
-    <None Include=".git\objects\3c\4efe206bd0e7230ad0ae8396a3c883c8207906" />
-    <None Include=".git\objects\4c\ab2d6add8db39e93b545a35f28d31d8d37b20a" />
-    <None Include=".git\objects\4d\382d32df00ef3d2314721312f9cc98c2fcd4b4" />
-    <None Include=".git\objects\53\12f09f1401cb289a989a0342f179555bf7a8df" />
-    <None Include=".git\objects\5d\557abdffdc708aa387f8b8843daddbaeb2e8bc" />
-    <None Include=".git\objects\61\bc649ba034750855ab1afebff3efa2a2393158" />
-    <None Include=".git\objects\71\82f72f1deb01a80778631dda380b49f398ab0b" />
-    <None Include=".git\objects\73\1f6de6c291e303814b02808f34140fe560e8e4" />
-    <None Include=".git\objects\73\5a4bd8574363345c580e005d4c7906a396ef12" />
-    <None Include=".git\objects\77\c6ad7b8643f3a1ab4a17420ba4984be010387f" />
-    <None Include=".git\objects\80\bd0680732eb70b81fdd3393e3ed7ebb05a2ca7" />
-    <None Include=".git\objects\8b\22397bc9be19f33aab0590ccd7d60d9cbbc803" />
-    <None Include=".git\objects\91\e3470e1645e6e8d0de6fe9f6b242f366e9a393" />
-    <None Include=".git\objects\a0\d42289f0bd095c570dfb8f30080cadd8f04c0e" />
-    <None Include=".git\objects\a2\c791f6e25984065bfdfe8b9afa8ba16558e95a" />
-    <None Include=".git\objects\af\7dbebbacef595e3089c01c05671016c21a8304" />
-    <None Include=".git\objects\b0\31bf7bdbf2f6ecaaffe0f2f9d72e1bf2dd043b" />
-    <None Include=".git\objects\b1\1721f837fd8c6058782e91b653b4e31ed686dc" />
-    <None Include=".git\objects\c1\c6c3f70fb0314c9157e906e1a81a9b1c0209a7" />
-    <None Include=".git\objects\c7\d09ded9fcaab0a1bde0bc9682d84001ebacc0f" />
-    <None Include=".git\ORIG_HEAD" />
-    <None Include=".git\refs\heads\master" />
-    <None Include=".git\refs\remotes\origin\master" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,13 +95,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include=".git\ms-persist.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include=".git\objects\info\" />
-    <Folder Include=".git\objects\pack\" />
-    <Folder Include=".git\refs\tags\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
