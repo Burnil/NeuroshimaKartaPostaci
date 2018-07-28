@@ -1,5 +1,5 @@
 ﻿namespace Neuroshima {
-    partial class StartWindow {
+    partial class InfoFillWindow {
         /// <summary>
         /// Required designer variable.
         /// </summary>

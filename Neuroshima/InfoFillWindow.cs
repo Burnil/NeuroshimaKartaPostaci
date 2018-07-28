@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Neuroshima {
-    public partial class StartWindow : Form {
+    public partial class InfoFillWindow : Form {
 
-        public StartWindow() {
+        public InfoFillWindow() {
             InitializeComponent();
             Choroba.DataSource=Choroby.ChorobyList;
         }
@@ -41,6 +41,11 @@ namespace Neuroshima {
                 Bohater.FillInfo(NazwaBohatera.Text, Pochodzenie.SelectedItem.ToString(),
                                  PochodzenieCecha.SelectedItem.ToString(),Profesja.SelectedItem.ToString(),
                                  ProfesjaCecha.SelectedItem.ToString(), Choroba.SelectedItem.ToString());
+
+                //Create main window hide and close this window
+                var mainWindow = new MainWindow();
+                this.Hide();
+                mainWindow.Show();
                 this.Close();
             }
         }
