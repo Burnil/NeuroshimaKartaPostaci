@@ -26,7 +26,7 @@ namespace Neuroshima
             InitializeComponent();
 
             //Open a managed form - the one the user sees..
-            var infoFillWindow = new InfoFillWindow();
+            var infoFillWindow = new MainWindow();
             infoFillWindow.Show();
         }
     }
